@@ -20,7 +20,7 @@ Begin Window Win_PrimeNumber
    MinimumHeight   =   64
    MinimumWidth    =   64
    Resizeable      =   False
-   Title           =   "Prime Number generator"
+   Title           =   "Prime Number generator by Fabrice Garcia"
    Type            =   0
    Visible         =   True
    Width           =   600
@@ -675,6 +675,12 @@ End
 #tag Events Btn_GoEratos
 	#tag Event
 		Sub Action()
+		  // Author: Fabrice GARCIA (20290 BORGO, Haute-Corse, France. November 1, 2021)
+		  // You are free to include this code in your programs.
+		  // It is provided to you freely and free of charge without any liability on my part.
+		  // I only ask you to respect my copyright by keeping my name
+		  // You can also send me a thank you email to fab2bprog@outlook.fr that will make me happy.
+		  
 		  
 		  // Here we just make sure that the user has entered a correct number
 		  try
@@ -826,6 +832,14 @@ End
 #tag Events Btn_GoAtkin
 	#tag Event
 		Sub Action()
+		  // Author: Fabrice GARCIA (20290 BORGO, Haute-Corse, France. November 1, 2021)
+		  // You are free to include this code in your programs.
+		  // It is provided to you freely and free of charge without any liability on my part.
+		  // I only ask you to respect my copyright by keeping my name
+		  // You can also send me a thank you email to fab2bprog@outlook.fr that will make me happy.
+		  
+		  
+		  // Here we just make sure that the user has entered a correct number
 		  try
 		    
 		    var number as integer =  Int32.Parse(Txt_MaxNumAtkin.Text)
