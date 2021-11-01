@@ -1,5 +1,5 @@
 # Xojo-Prime-Number-Generator
- Prime number generator with Atkin and Erastosthene sieve algorithm
+Xojo Prime number generator with Atkin and Erastosthene sieve algorithm
  
  Developed with Xojo 2020 R2.1
  
