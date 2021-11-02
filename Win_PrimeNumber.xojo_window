@@ -20,10 +20,10 @@ Begin Window Win_PrimeNumber
    MinimumHeight   =   64
    MinimumWidth    =   64
    Resizeable      =   False
-   Title           =   "Prime Number generator by Fabrice Garcia"
+   Title           =   "Prime Number generator"
    Type            =   0
    Visible         =   True
-   Width           =   600
+   Width           =   686
    Begin GroupBox GroupBox1
       AllowAutoDeactivate=   True
       Bold            =   False
@@ -51,12 +51,12 @@ Begin Window Win_PrimeNumber
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   560
+      Width           =   646
       Begin PushButton Btn_GoEratos
          AllowAutoDeactivate=   True
          Bold            =   False
          Cancel          =   False
-         Caption         =   "Generate prime Number"
+         Caption         =   "Generate"
          Default         =   True
          Enabled         =   True
          FontName        =   "System"
@@ -66,7 +66,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox1"
          Italic          =   False
-         Left            =   429
+         Left            =   486
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -104,7 +104,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox1"
          Italic          =   False
-         Left            =   186
+         Left            =   243
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -176,7 +176,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox1"
          Italic          =   False
-         Left            =   363
+         Left            =   442
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -226,12 +226,12 @@ Begin Window Win_PrimeNumber
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   560
+      Width           =   646
       Begin PushButton Btn_GoAtkin
          AllowAutoDeactivate=   True
          Bold            =   False
          Cancel          =   False
-         Caption         =   "Generate prime Number"
+         Caption         =   "Generate"
          Default         =   True
          Enabled         =   True
          FontName        =   "System"
@@ -241,7 +241,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox2"
          Italic          =   False
-         Left            =   429
+         Left            =   485
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -314,7 +314,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox2"
          Italic          =   False
-         Left            =   186
+         Left            =   244
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -351,7 +351,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox2"
          Italic          =   False
-         Left            =   360
+         Left            =   447
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -401,7 +401,7 @@ Begin Window Win_PrimeNumber
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   560
+      Width           =   646
       Begin Label Label3
          AllowAutoDeactivate=   True
          Bold            =   False
@@ -675,12 +675,6 @@ End
 #tag Events Btn_GoEratos
 	#tag Event
 		Sub Action()
-		  // Author: Fabrice GARCIA (20290 BORGO, Haute-Corse, France. November 1, 2021)
-		  // You are free to include this code in your programs.
-		  // It is provided to you freely and free of charge without any liability on my part.
-		  // I only ask you to respect my copyright by keeping my name
-		  // You can also send me a thank you email to fab2bprog@outlook.fr that will make me happy.
-		  
 		  
 		  // Here we just make sure that the user has entered a correct number
 		  try
@@ -832,14 +826,6 @@ End
 #tag Events Btn_GoAtkin
 	#tag Event
 		Sub Action()
-		  // Author: Fabrice GARCIA (20290 BORGO, Haute-Corse, France. November 1, 2021)
-		  // You are free to include this code in your programs.
-		  // It is provided to you freely and free of charge without any liability on my part.
-		  // I only ask you to respect my copyright by keeping my name
-		  // You can also send me a thank you email to fab2bprog@outlook.fr that will make me happy.
-		  
-		  
-		  // Here we just make sure that the user has entered a correct number
 		  try
 		    
 		    var number as integer =  Int32.Parse(Txt_MaxNumAtkin.Text)
