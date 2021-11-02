@@ -10,7 +10,7 @@ Begin Window Win_PrimeNumber
    HasFullScreenButton=   False
    HasMaximizeButton=   False
    HasMinimizeButton=   False
-   Height          =   482
+   Height          =   492
    ImplicitInstance=   True
    MacProcID       =   0
    MaximumHeight   =   32000
@@ -161,7 +161,7 @@ Begin Window Win_PrimeNumber
          Transparent     =   False
          Underline       =   False
          Visible         =   True
-         Width           =   134
+         Width           =   166
       End
       Begin Label Label7
          AllowAutoDeactivate=   True
@@ -292,7 +292,7 @@ Begin Window Win_PrimeNumber
          Transparent     =   False
          Underline       =   False
          Visible         =   True
-         Width           =   134
+         Width           =   167
       End
       Begin TextField Txt_MaxNumAtkin
          AllowAutoDeactivate=   True
@@ -435,7 +435,7 @@ Begin Window Win_PrimeNumber
          Transparent     =   False
          Underline       =   False
          Visible         =   True
-         Width           =   100
+         Width           =   147
       End
       Begin Label Label4
          AllowAutoDeactivate=   True
@@ -470,7 +470,7 @@ Begin Window Win_PrimeNumber
          Transparent     =   False
          Underline       =   False
          Visible         =   True
-         Width           =   202
+         Width           =   222
       End
       Begin TextField Txt_Time
          AllowAutoDeactivate=   True
@@ -492,7 +492,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox3"
          Italic          =   False
-         Left            =   267
+         Left            =   282
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -536,7 +536,7 @@ Begin Window Win_PrimeNumber
          Index           =   -2147483648
          InitialParent   =   "GroupBox3"
          Italic          =   False
-         Left            =   267
+         Left            =   282
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -594,7 +594,7 @@ Begin Window Win_PrimeNumber
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   484
+      Width           =   564
    End
    Begin Label Label6
       AllowAutoDeactivate=   True
@@ -625,7 +625,7 @@ Begin Window Win_PrimeNumber
       TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
-      Top             =   442
+      Top             =   446
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -656,7 +656,7 @@ Begin Window Win_PrimeNumber
       TabIndex        =   5
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "-> I advise you to build an executable: the program is much faster when it is compiled."
+      Text            =   "->I advise you to build an executable: the program is about 21 times faster in its compiled version."
       TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
@@ -664,7 +664,7 @@ Begin Window Win_PrimeNumber
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   484
+      Width           =   621
    End
 End
 #tag EndWindow
